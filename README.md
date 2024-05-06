@@ -17,3 +17,9 @@ server akan menjadi listener dan menerima connection dari tiap client. DServer a
 
 Mengubah menjadi port 8080 pada file client.rs dan server.rs. Apliaksi akan berjalan dengan port yang sama. Protocol pada server.rs dan client.rs berbeda. Client.rs menggunakan websocket sedangkan server.rs menggunakana protocol TCP.
 
+## 2.3: Small changes, add IP and Port
+![](clienthaloo.png)
+![](serverhaloo.png)
+
+- Menambahkan informasi from Edbert's computer pada server dan client. Saya juga menambahkan bcast_tx.send(format!("{addr} : {text}"))?; agar memberikan pesan broadcast dengan format address dan text sehingga semua client mendapatkan informasi tiap address client lain yang memberikan text.
+
