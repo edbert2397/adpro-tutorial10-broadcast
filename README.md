@@ -15,5 +15,5 @@ server akan menjadi listener dan menerima connection dari tiap client. DServer a
 ![](client8080.png)
 ![](server8080.png)
 
-Mengubah menjadi port 8080 pada file client.rs dan server.rs. Apliaksi akan berjalan dengan port yang sama. Protocol pada server.rs dan client.rs berbeda. Client.rs menggunakan websocket sedangkan server.rs menggunakana protocol.
+Mengubah menjadi port 8080 pada file client.rs dan server.rs. Apliaksi akan berjalan dengan port yang sama. Protocol pada server.rs dan client.rs berbeda. Client.rs menggunakan websocket sedangkan server.rs menggunakana protocol TCP.
 
